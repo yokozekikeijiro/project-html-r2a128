@@ -1,0 +1,29 @@
+<!-- 作成日:2024/08/22 -->
+<!-- 作成者:横関 慶次郎 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <mata charset="UTF-8" />
+    <mata   name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>学生登録情報1</title>
+  </head>
+
+  <body>
+    <h2>学生登録情報1</h2>
+    <p>必要事項を記入して登録ボタンを押してください</p>
+    <br />
+    <form action="#">
+      <p>学籍番号</p>
+      <input type="number" name="studentid" />
+      <p>氏名</p>
+      <input type="text" name="username" />
+      <p>電話番号</p>
+      <input type="tel" name="tel" />
+      <p>備考</p>
+      <textarea name="remarks" cols="40" rows="4" maxlength="40"></textarea>
+      <br />
+      <input type="submit" onclick="alert('send now!');return false;" value="登録" />
+      <input type="reset" value="クリア" />
+    </form>
+  </body>
+</html>

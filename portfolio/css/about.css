@@ -1,0 +1,19 @@
+table{
+  width: 60%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+table tr:nth-child(odd){
+  background-color: #f0f0f0;
+}
+tr{
+  border:2px solid #000000;
+  border-collapse: collapse;
+}
+th{
+  padding: 10px;
+  text-align: left;
+}
+td{
+  padding: 10px;
+}
